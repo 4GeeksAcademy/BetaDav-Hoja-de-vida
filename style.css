@@ -1,28 +1,23 @@
 body {
-    background-color: rgb(31, 32, 32);
+    background-color: rgb(139, 196, 196);
 }
-.pageName {
+.container {
+    width: 90%;
+    margin: auto;
+    background-color: salmon;
+}
+.header {
+    /* position: relative; */
+}
+.center {
     display: flex;
-    background-color: rgb(8, 8, 8);
-    justify-content: center;
-    color: white;
 }
-.content {
+.list  {
     display: flex;
-    justify-content: center;
-    color: white;
-    align-items: center;
-    flex-direction: column;
-    width: 600px;
-    height: 600px;
-    background-color: rgb(15, 141, 141);
-
 }
-img{
-    width: 10px;
-    height: 10px;
+.info1 {
+    margin: auto;
 }
-.containerContent {
-    display: flex;  
-    justify-content: center;
+.skills {
+    background-color: blanchedalmond;
 }
